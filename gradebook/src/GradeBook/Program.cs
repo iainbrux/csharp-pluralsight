@@ -7,24 +7,15 @@ namespace GradeBook
   {
     static void Main(string[] args)
     {
-      double[] numbers = new double[3] { 12.22, 43.99, 9.33 };
-      List<double> grades = new List<double>() { 12.22, 43.99, 9.33 };
+      Book book = new Book("Iain's Grade Book");
 
-      Book TotalGrades = new Book();
-      TotalGrades.AddGrade(32.3);
+      book.AddGrade(32.3);
+      book.AddGrade(42.1);
+      book.AddGrade(12.6);
+      book.AddGrade(82.9);
+      book.AddGrade(64.6);
 
-
-      grades.Add(16.1);
-      grades.Add(77.3);
-
-      double result = 0;
-
-      foreach (double number in grades)
-      {
-        result += number;
-      }
-      result /= grades.Count;
-      System.Console.WriteLine($"The average grade is {result:N2}");
+      book.ShowStats();
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rOLRRp6f3LIM511puQjA5QLDyadqXgtYXx/L4EXqeutU9so56GKBE1ByE8652YAMVv16kgZR3psZQK2K8tw2Vw==",
+  "dgSpecHash": "L8h8oN8LdwyytVNv7XhzkbIfdq4Kx+r4QekGjUf39jManQ3zKw9fftcM0cfMenp70h23T9Hy9X5YRxV0aDc+YQ==",
   "success": true,
-  "projectFilePath": "/Users/iainbrookes/csharp-pluralsight/gradebook/src/GradeBook/GradeBook.csproj",
+  "projectFilePath": "/home/iainbrux/pluralsight/gradebook/src/GradeBook/GradeBook.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
